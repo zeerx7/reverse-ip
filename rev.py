@@ -51,20 +51,23 @@ class Reverse_Ip:
       self.banner()
       self.save = 'result.txt'
    def reverse(self, domain):
-      req = requests.get(self.url+domain)
-      if req.status_code == 200:
-         jumlah = len(req.json()['result'])
-         if jumlah > 10  and  jumlah < 100:
-            color = yellow
-         elif jumlah < 10:
-            color = red
-         else:
-             color = green
-         print ("{} >> ({} domains)".format(color+domain, str(jumlah)))
-         res = req.json()
-         if res['result']:
-            domains = '\n'.join(res['result'])
-            open(self.save, 'a').write(domains+'\n')
+        try:
+            req = requests.get(self.url+domain)
+            if req.status_code == 200:
+                jumlah = len(req.json()['result'])
+                if jumlah > 10  and  jumlah < 100:
+                    color = yellow
+                elif jumlah < 10:
+                    color = red
+                else:
+                    color = green
+                print ("{} >> ({} domains)".format(color+domain, str(jumlah)))
+                res = req.json()
+                if res['result']:
+                    domains = '\n'.join(res['result'])
+                    open(self.save, 'a').write(domains+'\n')
+        except Exception as v:
+            print(v)
    def start(self, q):
      while not q.empty():
        dom = q.get()
