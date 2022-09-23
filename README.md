@@ -1,4 +1,4 @@
-# Reverse IP Lookup
+# Reverse IP Lookup (V 1.3)
 
 ![Screenshot](https://i.ibb.co/LgQ26kg/Screenshot.png)
 
@@ -8,7 +8,7 @@ Takes a domain or IP address and does a reverse lookup to quickly shows all othe
 > OS: Windows
 
 ### Usage
-- Download reverseip.exe from this repository or click [here.](https://github.com/404rgr/reverse-ip/blob/windows/reverseip.exe?raw=true)
+- Download rev.exe from this repository or click [here.](https://github.com/404rgr/reverse-ip/blob/windows/rev.exe?raw=true)
 - Run the executable
 
 _`Thanks.`_
