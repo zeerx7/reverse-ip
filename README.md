@@ -1,14 +1,16 @@
-# Reverse IP Lookup (V 1.3)
+# Reverse IP Lookup (V 1.7)
 
-![Screenshot](https://i.ibb.co/LgQ26kg/Screenshot.png)
+![Screenshot](https://i.ibb.co/fYtzB2w/Screenshot-2023-02-04-16-43-26.png)
 
-Takes a domain or IP address and does a reverse lookup to quickly shows all other domains hosted from the same server. Useful for finding phishing sites or identifying other sites on the same shared hosting server.
+Performs a reverse lookup on a domain or IP address and quickly displays all other domains hosted on the same server. Useful for finding phishing sites or identifying other sites on the same shared hosting server.
 
 ### Requirements
 > OS: Windows
 
 ### Usage
-- Download rev.exe from this repository or click [here.](https://github.com/404rgr/reverse-ip/blob/windows/rev.exe?raw=true)
+- Download rev.exe from this repository or click [Here.](https://github.com/zeerx7/reverse-ip/blob/windows/rev.exe?raw=true)
 - Run the executable
 
 _`Thanks.`_
+
+_open an [issue](https://github.com/zeerx7/reverse-ip/issues/new) if there is something you want to discuss._
