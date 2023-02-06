@@ -8,7 +8,7 @@ Performs a reverse lookup on a domain or IP address and quickly displays all oth
 > OS: Windows
 
 ### Usage
-- Download rev.exe from this repository or click [Here.](https://github.com/zeerx7/reverse-ip/blob/windows/rev.exe?raw=true)
+- Download rev.exe from this repository or click [Here.](https://bit.ly/reverse-ip)
 - Run the executable
 
 _`Thanks.`_
