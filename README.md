@@ -1,3 +1,5 @@
+
+
 # Reverse IP Lookup (v3.4)
 
 **Fast, Free, Easy-to-Use, and Great Results**
@@ -10,8 +12,8 @@ Performs a reverse lookup on a domain or IP address and quickly displays all oth
 > OS: Windows
 
 ### Usage
-- Download rev.exe from this repository or click [Here.](https://bit.ly/reverse-ip)
-- Run the executable
+- Download `rev.exe` from this repository or click [here](https://bit.ly/reverse-ip).
+- Run the executable with your target IP or domain as a command-line argument (e.g., `rev.exe 8.8.8.8`).
 
 _`Thanks.`_
 
